@@ -6,7 +6,7 @@ import todoList
 def create(event, context):
     data = json.loads(event['body'])
     if 'text' not in data:
-        logging.error("Validation failed")
+        logging.error("Validation failed2")
         raise Exception("Couldn't create the todo item.")
     item = todoList.put_item(data['text'])
     # create a response
@@ -15,3 +15,4 @@ def create(event, context):
         "body": json.dumps(item)
     }
     return response
+    
