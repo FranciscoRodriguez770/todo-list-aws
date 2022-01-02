@@ -11,7 +11,7 @@ parameter_overrides = "Stage=\"default\""
 image_repositories = []
 confirm_changeset = true
 
-[staging]git 
+[staging]
 [staging.deploy]
 [staging.deploy.parameters]
 stack_name = "todo-list-aws-staging"
