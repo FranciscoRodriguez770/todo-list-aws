@@ -4,10 +4,14 @@ version = 0.1
 [default.deploy.parameters]
 stack_name = "todo-list-aws"
 <<<<<<< HEAD
+<<<<<<< HEAD
 s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-12los52lhwt11"
 =======
 s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-12los52lhwt11" #Incluir bucket propio
 >>>>>>> feature
+=======
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-12los52lhwt11" #Incluir bucket propio
+>>>>>>> 4884b3bfbc0a34440cfa5062f4e42b539e854ac1
 s3_prefix = "todo-list-aws"
 region = "us-east-1"
 capabilities = "CAPABILITY_IAM"
@@ -20,10 +24,14 @@ confirm_changeset = true
 [staging.deploy.parameters]
 stack_name = "todo-list-aws-staging"
 <<<<<<< HEAD
+<<<<<<< HEAD
 s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-12los52lhwt11"
 =======
 s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-12los52lhwt11" #Incluir bucket propio
 >>>>>>> feature
+=======
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-12los52lhwt11" #Incluir bucket propio
+>>>>>>> 4884b3bfbc0a34440cfa5062f4e42b539e854ac1
 s3_prefix = "todo-list-aws"
 region = "us-east-1"
 capabilities = "CAPABILITY_IAM"
@@ -35,10 +43,14 @@ image_repositories = []
 [production.deploy.parameters]
 stack_name = "todo-list-aws-production"
 <<<<<<< HEAD
+<<<<<<< HEAD
 s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-12los52lhwt11" 
 =======
 s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-12los52lhwt11" #Incluir bucket propio
 >>>>>>> feature
+=======
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-12los52lhwt11" #Incluir bucket propio
+>>>>>>> 4884b3bfbc0a34440cfa5062f4e42b539e854ac1
 s3_prefix = "todo-list-aws"
 region = "us-east-1"
 capabilities = "CAPABILITY_IAM"
