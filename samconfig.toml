@@ -24,7 +24,7 @@ image_repositories = []
 
 [production]
 [production.deploy]
-[production.deploy.parameters]cd 
+[production.deploy.parameters]
 stack_name = "todo-list-aws-production"
 s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-12los52lhwt11" #Incluir bucket propio
 s3_prefix = "todo-list-aws"
