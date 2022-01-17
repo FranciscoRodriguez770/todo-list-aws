@@ -16,6 +16,6 @@ python -m pip install boto3
 python -m pip install moto
 python -m pip install mock==4.0.2
 python -m pip install coverage==4.5.4
-
+python -m pip install awscli 
 
 pwd
